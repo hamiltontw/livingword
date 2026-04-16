@@ -1,0 +1,42 @@
+[
+  {
+    "id": "p1-opening",
+    "part": 1,
+    "order": 1,
+    "title": "Opening Exhortation",
+    "description": "A call to detachment as the precondition of true understanding. Bahá'u'lláh establishes that the whole argument which follows cannot be received by a heart still measuring the Prophets by the standards of ordinary people.",
+    "paragraphIds": ["p1", "p2"]
+  },
+  {
+    "id": "p1-pattern",
+    "part": 1,
+    "order": 2,
+    "title": "The Pattern of History",
+    "description": "The recurring drama of prophetic history: in every age the Promised One is awaited, and in every age He is denied. Bahá'u'lláh begins with Noah and Húd, laying down the historical pattern the book will trace.",
+    "paragraphIds": ["p3", "p4", "p5"]
+  },
+  {
+    "id": "p1-abraham-moses",
+    "part": 1,
+    "order": 3,
+    "title": "Abraham, Moses, and the Continuing Pattern",
+    "description": "Placeholder — paragraphs to be ingested. The historical argument continues through Ibrāhīm, Mūsā, and ʿĪsā, each case reinforcing the same rejection-pattern.",
+    "paragraphIds": []
+  },
+  {
+    "id": "p1-signs-of-day",
+    "part": 1,
+    "order": 4,
+    "title": "The Signs of the Day of Judgment",
+    "description": "Placeholder — the interpretive core of Part One. Bahá'u'lláh re-reads the eschatological imagery of the Qur'an (clouds, sun darkening, stars falling) as symbolic rather than literal, on the basis of the Qur'an itself.",
+    "paragraphIds": []
+  },
+  {
+    "id": "p2-qaim-qayyum",
+    "part": 2,
+    "order": 1,
+    "title": "The Qáʾim and the Seal of the Prophets",
+    "description": "Placeholder — Part Two opens with the central objection: if Muḥammad is the Seal of the Prophets, how can any Messenger come after Him? Bahá'u'lláh reframes the question around the station of the Manifestations.",
+    "paragraphIds": []
+  }
+]

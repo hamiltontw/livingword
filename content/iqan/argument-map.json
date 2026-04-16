@@ -1,0 +1,53 @@
+{
+  "rootIds": ["claim-recognition"],
+  "nodes": [
+    {
+      "id": "exhort-detachment",
+      "kind": "exhortation",
+      "label": "Detachment as precondition",
+      "summary": "True understanding requires inner detachment. The argument cannot be received otherwise.",
+      "parents": [],
+      "paragraphIds": ["p1"]
+    },
+    {
+      "id": "claim-recognition",
+      "kind": "claim",
+      "label": "The true standard of recognition",
+      "summary": "God's Messengers cannot be recognized by the standards of ordinary people. Judging them by human words and deeds is the root of rejection.",
+      "parents": ["exhort-detachment"],
+      "paragraphIds": ["p2"]
+    },
+    {
+      "id": "historical-pattern",
+      "kind": "evidence",
+      "label": "The historical pattern",
+      "summary": "In every age the Promised One is awaited — and denied by the very people awaiting Him. Noah and Húd are the first cases.",
+      "parents": ["claim-recognition"],
+      "paragraphIds": ["p3", "p4", "p5"]
+    },
+    {
+      "id": "objection-seal",
+      "kind": "objection",
+      "label": "Objection: Muḥammad is the Seal of the Prophets",
+      "summary": "Placeholder node. A central objection the book answers in Part Two: if Muḥammad is the Seal, no Messenger can come after Him.",
+      "parents": ["claim-recognition"],
+      "paragraphIds": []
+    },
+    {
+      "id": "interpretive-allegorical",
+      "kind": "interpretation",
+      "label": "Reading eschatological imagery symbolically",
+      "summary": "Placeholder node. Bahá'u'lláh argues, on the Qur'an's own terms, that images like clouds, sun darkening, and stars falling are symbolic rather than literal.",
+      "parents": ["claim-recognition"],
+      "paragraphIds": []
+    },
+    {
+      "id": "response-recognition",
+      "kind": "response",
+      "label": "Response: the station of the Manifestations",
+      "summary": "Placeholder node. The answer to the Seal objection is that the Manifestations are one in essence; the Seal refers to a station, not a termination.",
+      "parents": ["objection-seal"],
+      "paragraphIds": []
+    }
+  ]
+}

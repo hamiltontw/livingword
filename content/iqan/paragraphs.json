@@ -1,0 +1,77 @@
+[
+  {
+    "id": "p1",
+    "index": 1,
+    "sectionId": "p1-opening",
+    "part": 1,
+    "text": "NO man shall attain the shores of the ocean of true understanding except he be detached from all that is in heaven and on earth. Sanctify your souls, O ye peoples of the world, that haply ye may attain that station which God hath destined for you and enter thus the tabernacle which, according to the dispensations of Providence, hath been raised in the firmament of the Bayán.",
+    "summary": {
+      "bahai": "The opening claim: spiritual understanding requires inner detachment. Bahá'u'lláh establishes a precondition — no one will grasp what follows without first purifying the heart.",
+      "muslim": "Bahá'u'lláh opens in the classical register of the 'ulamā and the Sufi path: true understanding is not merely intellectual. It requires taqwā and detachment from all but God."
+    },
+    "move": "exhortation",
+    "argumentNodeId": "exhort-detachment",
+    "quranRefs": [],
+    "crossRefs": []
+  },
+  {
+    "id": "p2",
+    "index": 2,
+    "sectionId": "p1-opening",
+    "part": 1,
+    "text": "The essence of these words is this: they that tread the path of faith, they that thirst for the wine of certitude, must cleanse themselves of all that is earthly—their ears from idle talk, their minds from vain imaginings, their hearts from worldly affections, their eyes from that which perisheth. They should put their trust in God, and, holding fast unto Him, follow in His way. Then will they be made worthy of the effulgent glories of the sun of divine knowledge and understanding, and become the recipients of a grace that is infinite and unseen, inasmuch as man can never hope to attain unto the knowledge of the All-Glorious, can never quaff from the stream of divine knowledge and wisdom, can never enter the abode of immortality, nor partake of the cup of divine nearness and favour, unless and until he ceases to regard the words and deeds of mortal men as a standard for the true understanding and recognition of God and His Prophets.",
+    "summary": {
+      "bahai": "The core interpretive principle of the whole book: do not judge God's Manifestations by the standards of ordinary people. This is the condition for everything that follows.",
+      "muslim": "The seeker is warned not to measure the Prophets of God by the words or deeds of mortal men. Ears, minds, hearts, and eyes must be cleansed before divine knowledge can be received."
+    },
+    "move": "claim",
+    "argumentNodeId": "claim-recognition",
+    "quranRefs": [{ "surah": 22, "ayah": 46, "note": "The Qur'anic principle that it is the hearts, not the eyes, that become blind." }],
+    "crossRefs": []
+  },
+  {
+    "id": "p3",
+    "index": 3,
+    "sectionId": "p1-pattern",
+    "part": 1,
+    "text": "Consider the past. How many, both high and low, have, at all times, yearningly awaited the advent of the Manifestations of God in the sanctified persons of His chosen Ones. How often have they expected His coming, how frequently have they prayed that the breeze of divine mercy might blow, and the promised Beauty step forth from behind the veil of concealment, and be made manifest to all the world. And whensoever the portals of grace did open, and the clouds of divine bounty did rain upon mankind, and the light of the Unseen did shine above the horizon of celestial might, they all denied Him, and turned away from His face—the face of God Himself.",
+    "summary": {
+      "bahai": "The historical claim begins: in every age, people longed for the Promised One — and then rejected Him when He came. The rest of the Íqán will trace and explain this recurring pattern.",
+      "muslim": "An appeal to the historical pattern familiar from the Qur'an: every age has awaited a Messenger, yet in nearly every case the Messenger was denied by the very people who awaited Him."
+    },
+    "move": "claim",
+    "argumentNodeId": "historical-pattern",
+    "quranRefs": [{ "surah": 2, "ayah": 213 }],
+    "crossRefs": ["p4", "p5"]
+  },
+  {
+    "id": "p4",
+    "index": 4,
+    "sectionId": "p1-pattern",
+    "part": 1,
+    "text": "Among the Prophets was Noah. For nine hundred and fifty years He prayerfully exhorted His people and summoned them to the haven of security and peace. None, however, heeded His call. Each day they inflicted on His blessed person such pain and suffering that no one believed He could survive. How oft they denied Him, how malevolently they hinted their suspicion against Him!",
+    "summary": {
+      "bahai": "First historical case: Noah. Centuries of patient summons, centuries of rejection. This is the template for the pattern the Íqán will trace.",
+      "muslim": "The example of Nūḥ — nine hundred and fifty years of call, met with denial and persecution. The Qur'anic memory of Nūḥ is invoked here as a type of the same recurring drama."
+    },
+    "move": "evidence",
+    "argumentNodeId": "historical-pattern",
+    "quranRefs": [],
+    "crossRefs": ["p3", "p5"]
+  },
+  {
+    "id": "p5",
+    "index": 5,
+    "sectionId": "p1-pattern",
+    "part": 1,
+    "text": "After Noah the light of the countenance of Húd shone forth above the horizon of creation. For well-nigh seven hundred years, according to the sayings of men, He exhorted the people to turn their faces and draw nearer unto the Riḍván of the divine presence. What showers of afflictions rained upon Him, until at last His adjurations bore the fruit of increased rebelliousness, and His assiduous endeavours resulted in the wilful blindness of His people.",
+    "summary": {
+      "bahai": "Second case: Húd. The same pattern recurs. Rejection is not incidental — it is structural to how prophetic history unfolds.",
+      "muslim": "The example of Hūd — another Qur'anic prophet (Sūrat Hūd) whose centuries-long call met with rebellion. The pattern is not incidental but structural."
+    },
+    "move": "evidence",
+    "argumentNodeId": "historical-pattern",
+    "quranRefs": [],
+    "crossRefs": ["p3", "p4"]
+  }
+]
