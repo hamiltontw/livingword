@@ -5,6 +5,7 @@
     "order": 1,
     "title": "Opening Exhortation",
     "description": "A call to detachment as the precondition of true understanding. Bahá'u'lláh establishes that the whole argument which follows cannot be received by a heart still measuring the Prophets by the standards of ordinary people.",
+    "argumentContext": "Before any claim is made, a stance is required. Bahá'u'lláh opens the book not with a proposition but with a condition: the reader must be willing to suspend the standards of ordinary judgment. Everything that follows — the historical argument, the re-reading of the signs, the answer to the Seal — rests on this one preparatory move. If the reader will not meet the condition, the argument cannot land.",
     "paragraphIds": ["p1", "p2"]
   },
   {
@@ -13,30 +14,88 @@
     "order": 2,
     "title": "The Pattern of History",
     "description": "The recurring drama of prophetic history: in every age the Promised One is awaited, and in every age He is denied. Bahá'u'lláh begins with Noah and Húd, laying down the historical pattern the book will trace.",
+    "argumentContext": "The book's first substantive move is empirical, not theological. Before arguing about the Qur'an's eschatological verses, Bahá'u'lláh surveys prophetic history and asks the reader to notice a pattern: in age after age, the people who were awaiting the Messenger were the ones who denied Him. Noah and Húd are the first data points. The reader is being trained to see the pattern before the book applies it, in later sections, to Muḥammad's rejection by the People of the Book — and, implicitly, to the reader's own generation.",
     "paragraphIds": ["p3", "p4", "p5"]
   },
   {
-    "id": "p1-abraham-moses",
+    "id": "p1-abrahamic-line",
     "part": 1,
     "order": 3,
-    "title": "Abraham, Moses, and the Continuing Pattern",
-    "description": "Placeholder — paragraphs to be ingested. The historical argument continues through Ibrāhīm, Mūsā, and ʿĪsā, each case reinforcing the same rejection-pattern.",
+    "title": "The Prophets of the Abrahamic Line",
+    "description": "Placeholder — Ṣáliḥ, Ibrāhīm, Mūsā, and ʿĪsā. Each case reinforces the same structural rejection and vindicates the pattern Bahá'u'lláh is tracing.",
+    "argumentContext": "Placeholder. The historical pattern established in the previous section is extended through the Abrahamic line. Each case closes an exit route: the pattern is not a local feature of a few prophets, and it is not a failure of any one community. It is structural to prophetic history as the Qur'an itself tells it.",
     "paragraphIds": []
   },
   {
-    "id": "p1-signs-of-day",
+    "id": "p1-muhammad-and-people-of-book",
     "part": 1,
     "order": 4,
-    "title": "The Signs of the Day of Judgment",
-    "description": "Placeholder — the interpretive core of Part One. Bahá'u'lláh re-reads the eschatological imagery of the Qur'an (clouds, sun darkening, stars falling) as symbolic rather than literal, on the basis of the Qur'an itself.",
+    "title": "Muḥammad and the People of the Book",
+    "description": "Placeholder — the particular case of the Jews and Christians who awaited a Promised One and yet rejected Muḥammad. Bahá'u'lláh uses this episode as a hinge between prophetic history and the reader's own position.",
+    "argumentContext": "Placeholder. This is the hinge of Part One. Up to this point the argument has looked backward; here it turns. The Qur'an itself records that those who had every textual reason to recognize Muḥammad — the People of the Book — did not. If the same structural failure afflicted those whose scriptures foretold Him, the reader must consider whether it could afflict Muslims who await the Qá'im.",
     "paragraphIds": []
   },
   {
-    "id": "p2-qaim-qayyum",
+    "id": "p1-day-of-resurrection",
+    "part": 1,
+    "order": 5,
+    "title": "The Question of the Day of Resurrection",
+    "description": "Placeholder — the uncle of the Báb's question, now made explicit: what does the Qur'an mean by the Day, the Hour, the meeting with God? Bahá'u'lláh reframes the whole cluster of eschatological terms.",
+    "argumentContext": "Placeholder. The occasioning question of the entire book. Having established the pattern of rejection, Bahá'u'lláh now addresses the specific objection that blocks his audience: the Qur'an promises a Day of Judgment with particular signs, and those signs have not literally occurred. The question is not dismissed — it is honored, then reframed through the Qur'an's own distinction between clear and allegorical verses.",
+    "paragraphIds": []
+  },
+  {
+    "id": "p1-signs-symbolic",
+    "part": 1,
+    "order": 6,
+    "title": "The Symbolic Reading of the Signs",
+    "description": "Placeholder — the interpretive core of Part One. Clouds, the darkening of the sun, the falling of the stars, the rending of the heavens. Bahá'u'lláh argues from the Qur'an itself that these are not literal meteorology but spiritual realities.",
+    "argumentContext": "Placeholder. The interpretive engine of the book. Each eschatological image from the Qur'an is read against other Qur'anic usages of the same word, so that the symbolic sense is established from within scripture, not imposed upon it. This section is load-bearing for everything that follows in Part One.",
+    "paragraphIds": []
+  },
+  {
+    "id": "p1-return-of-elijah",
+    "part": 1,
+    "order": 7,
+    "title": "The \"Return\" of Former Prophets",
+    "description": "Placeholder — the hermeneutic of \"return\" applied to John the Baptist as Elijah, and extended as a general principle. What does it mean for a Prophet to \"come again\"?",
+    "argumentContext": "Placeholder. A specific application of the symbolic hermeneutic, but one with broad reach. If the Gospel's \"return of Elijah\" is fulfilled by John the Baptist, then \"return\" does not require individual identity — it names a return of station and quality. This prepares the ground for Part Two's answer to the Seal of the Prophets objection.",
+    "paragraphIds": []
+  },
+  {
+    "id": "p2-station-of-manifestations",
     "part": 2,
     "order": 1,
-    "title": "The Qáʾim and the Seal of the Prophets",
-    "description": "Placeholder — Part Two opens with the central objection: if Muḥammad is the Seal of the Prophets, how can any Messenger come after Him? Bahá'u'lláh reframes the question around the station of the Manifestations.",
+    "title": "The Station of the Manifestations",
+    "description": "Placeholder — Part Two opens with the claim that the Prophets of God share one essential station. The apparent differences among Them are conditioned by time and audience, not by any division in the source.",
+    "argumentContext": "Placeholder. Part Two begins with a metaphysical claim that reframes everything about the \"after-Muḥammad\" question. If the Manifestations share a single essence, then the question \"can there be a Prophet after Muḥammad\" is partly dissolved: there is one Light appearing through different veils.",
+    "paragraphIds": []
+  },
+  {
+    "id": "p2-seal-of-prophets",
+    "part": 2,
+    "order": 2,
+    "title": "The Seal of the Prophets",
+    "description": "Placeholder — the central Islamic objection. If Muḥammad is Khātam al-Nabiyyīn, how can a Manifestation come after Him? Bahá'u'lláh does not dismiss the verse; He re-reads what \"seal\" and \"prophet\" denote.",
+    "argumentContext": "Placeholder. The central objection of the Muslim reader, addressed directly. Bahá'u'lláh does not minimize the verse. He re-reads it — distinguishing the station of Manifestation from the category of prophet, and reading \"seal\" as the completion of a cycle within a continuing sequence of divine disclosure. Where his reading diverges from mainstream tafsīr, it must be named as divergence.",
+    "paragraphIds": []
+  },
+  {
+    "id": "p2-qaim",
+    "part": 2,
+    "order": 3,
+    "title": "The Qá'im and the Expected Signs",
+    "description": "Placeholder — the signs traditionally associated with the Qá'im: descent from the Imam's line, the sword, the banner. Bahá'u'lláh reads these against the grain of literalism while holding to the Qur'an and the ḥadīth.",
+    "argumentContext": "Placeholder. The same hermeneutic that handled the Qur'an's eschatological signs in Part One is now extended to the ḥadīth concerning the Qá'im. The reader is asked to be consistent: if symbolic reading was warranted there, it is warranted here.",
+    "paragraphIds": []
+  },
+  {
+    "id": "p2-qur-an-as-standard",
+    "part": 2,
+    "order": 4,
+    "title": "The Qur'an as the Standard of Judgment",
+    "description": "Placeholder — closing movement. The Qur'an is itself proposed as the standard by which to test the argument. Bahá'u'lláh returns the reader to the sacred text as the ultimate arbiter.",
+    "argumentContext": "Placeholder. The book closes where it began — not in asserted authority but in appeal to scripture. The reader is not asked to trust Bahá'u'lláh against the Qur'an. The reader is asked to test the argument by the Qur'an.",
     "paragraphIds": []
   }
 ]

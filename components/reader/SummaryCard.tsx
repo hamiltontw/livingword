@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import type { IqanParagraph, ReaderPath } from "@/lib/types";
+import { READER_PATH_COOKIE, READER_PATH_MAX_AGE_SECONDS } from "./summary-card-constants";
 
 export function SummaryCard({
   paragraph,
@@ -12,6 +13,13 @@ export function SummaryCard({
 }) {
   const [path, setPath] = useState<ReaderPath>(initialPath);
   const summary = paragraph.summary[path];
+
+  function choose(next: ReaderPath) {
+    setPath(next);
+    if (typeof document !== "undefined") {
+      document.cookie = `${READER_PATH_COOKIE}=${next}; Path=/; Max-Age=${READER_PATH_MAX_AGE_SECONDS}; SameSite=Lax`;
+    }
+  }
 
   return (
     <aside className="ui rounded-sm border border-rule bg-paper-deep/50 p-5">
@@ -24,10 +32,10 @@ export function SummaryCard({
           aria-label="Reading path"
           className="flex overflow-hidden rounded-sm border border-rule"
         >
-          <PathTab active={path === "bahai"} onClick={() => setPath("bahai")}>
+          <PathTab active={path === "bahai"} onClick={() => choose("bahai")}>
             Bahá'í
           </PathTab>
-          <PathTab active={path === "muslim"} onClick={() => setPath("muslim")}>
+          <PathTab active={path === "muslim"} onClick={() => choose("muslim")}>
             Muslim
           </PathTab>
         </div>

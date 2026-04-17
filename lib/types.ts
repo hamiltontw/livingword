@@ -37,6 +37,7 @@ export interface IqanSection {
   order: number;
   title: string;
   description: string;
+  argumentContext?: string;
   paragraphIds: string[];
 }
 

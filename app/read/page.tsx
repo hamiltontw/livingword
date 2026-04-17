@@ -1,8 +1,12 @@
 import Link from "next/link";
-import { getAllSections, getParagraph } from "@/lib/content";
+import { getAllParagraphs, getAllSections, getParagraph } from "@/lib/content";
 
 export default function ReadIndexPage() {
   const sections = getAllSections();
+  const knownSectionIds = new Set(sections.map((s) => s.id));
+  const unassigned = getAllParagraphs().filter(
+    (p) => !knownSectionIds.has(p.sectionId),
+  );
 
   return (
     <div className="fade-in mx-auto max-w-reader px-6 pt-16 pb-20">
@@ -61,6 +65,30 @@ export default function ReadIndexPage() {
             </section>
           );
         })}
+
+        {unassigned.length > 0 && (
+          <section>
+            <h2 className="ui text-xs uppercase tracking-wide2 text-ink-faint">
+              Awaiting editorial assignment
+            </h2>
+            <p className="ui mt-2 text-xs text-ink-faint">
+              These paragraphs have been ingested from source but have not yet
+              been assigned to a section or given editorial summaries.
+            </p>
+            <ul className="ui mt-4 flex flex-wrap gap-2">
+              {unassigned.map((p) => (
+                <li key={p.id}>
+                  <Link
+                    href={`/read/${p.id}`}
+                    className="inline-flex rounded-sm border border-dashed border-rule bg-paper-deep/40 px-2.5 py-1 text-xs text-ink-muted hover:border-accent-deep/60 hover:text-accent-deep"
+                  >
+                    ¶{p.index}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </section>
+        )}
       </div>
     </div>
   );

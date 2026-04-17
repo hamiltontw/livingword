@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { BeginReading } from "@/components/onboarding/BeginReading";
 import type { ReaderPath } from "@/lib/types";
 
 type RouteParams = { path: string };
@@ -57,12 +58,7 @@ export default async function OnboardingPage({
         >
           ← Back
         </Link>
-        <Link
-          href="/read/p1"
-          className="ui inline-flex items-center rounded-sm border border-accent-deep/70 bg-accent-deep px-5 py-2.5 text-sm text-paper hover:bg-accent-deep/90"
-        >
-          Begin with paragraph 1
-        </Link>
+        <BeginReading path={path} />
       </div>
     </article>
   );

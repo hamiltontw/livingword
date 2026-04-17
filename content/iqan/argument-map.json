@@ -1,11 +1,11 @@
 {
-  "rootIds": ["claim-recognition"],
+  "rootIds": ["exhort-detachment"],
   "nodes": [
     {
       "id": "exhort-detachment",
       "kind": "exhortation",
       "label": "Detachment as precondition",
-      "summary": "True understanding requires inner detachment. The argument cannot be received otherwise.",
+      "summary": "True understanding of the Prophets requires inner detachment. The argument which follows cannot be received by a heart still measuring them by ordinary human standards.",
       "parents": [],
       "paragraphIds": ["p1"]
     },
@@ -13,40 +13,112 @@
       "id": "claim-recognition",
       "kind": "claim",
       "label": "The true standard of recognition",
-      "summary": "God's Messengers cannot be recognized by the standards of ordinary people. Judging them by human words and deeds is the root of rejection.",
+      "summary": "God's Messengers cannot be recognized by the standards of ordinary people. Judging them by human words and deeds is the root of rejection in every age.",
       "parents": ["exhort-detachment"],
       "paragraphIds": ["p2"]
     },
     {
       "id": "historical-pattern",
       "kind": "evidence",
-      "label": "The historical pattern",
-      "summary": "In every age the Promised One is awaited — and denied by the very people awaiting Him. Noah and Húd are the first cases.",
+      "label": "The historical pattern of rejection",
+      "summary": "In every age the Promised One is awaited — and denied by the very people who awaited Him. Noah and Húd are the first cases; the Abrahamic line and Muḥammad continue the pattern.",
       "parents": ["claim-recognition"],
       "paragraphIds": ["p3", "p4", "p5"]
+    },
+    {
+      "id": "historical-abrahamic",
+      "kind": "evidence",
+      "label": "The Abrahamic line as further witness",
+      "summary": "Placeholder. Ṣáliḥ, Ibrāhīm, Mūsā, and ʿĪsā — each faces the same denial from the generation meant to recognize Him. The pattern is structural, not incidental.",
+      "parents": ["historical-pattern"],
+      "paragraphIds": []
+    },
+    {
+      "id": "historical-muhammad",
+      "kind": "evidence",
+      "label": "Muḥammad and the People of the Book",
+      "summary": "Placeholder. The Jews and Christians who had awaited a Promised One and yet rejected Muḥammad — a case especially pointed to the reader, since the Qur'an itself records it.",
+      "parents": ["historical-pattern"],
+      "paragraphIds": []
+    },
+    {
+      "id": "objection-day-literal",
+      "kind": "objection",
+      "label": "Objection: the signs of the Day have not appeared",
+      "summary": "Placeholder. The Qur'an foretells sun darkening, clouds, stars falling, the Hour. None of this has happened literally, so the Manifestation cannot have come.",
+      "parents": ["claim-recognition"],
+      "paragraphIds": []
+    },
+    {
+      "id": "response-signs-symbolic",
+      "kind": "response",
+      "label": "Response: the signs are to be read symbolically",
+      "summary": "Placeholder. Bahá'u'lláh's central interpretive move: the cosmological imagery of the Qur'an speaks of a spiritual reality, not a physical one.",
+      "parents": ["objection-day-literal"],
+      "paragraphIds": []
+    },
+    {
+      "id": "interpretive-muhkam-mutashabih",
+      "kind": "interpretation",
+      "label": "The Qur'an's own distinction of clear and allegorical verses",
+      "summary": "Placeholder. The hermeneutic is not imposed on the Qur'an from outside — it is the Qur'an's own distinction in 3:7 between muḥkam (clear) and mutashābih (allegorical) verses.",
+      "parents": ["response-signs-symbolic"],
+      "paragraphIds": []
+    },
+    {
+      "id": "interpretive-sun-cloud",
+      "kind": "interpretation",
+      "label": "What \"sun\", \"cloud\", \"star\" mean",
+      "summary": "Placeholder. The sun as the Manifestation, the clouds as that which veils Him, the stars as the divines of the former dispensation. Each image is given a spiritual referent grounded in scripture.",
+      "parents": ["response-signs-symbolic"],
+      "paragraphIds": []
+    },
+    {
+      "id": "interpretive-return",
+      "kind": "interpretation",
+      "label": "The meaning of \"return\"",
+      "summary": "Placeholder. John the Baptist as the \"return\" of Elijah is the scriptural key. \"Return\" names a return of station and quality, not of individual person.",
+      "parents": ["response-signs-symbolic"],
+      "paragraphIds": []
     },
     {
       "id": "objection-seal",
       "kind": "objection",
       "label": "Objection: Muḥammad is the Seal of the Prophets",
-      "summary": "Placeholder node. A central objection the book answers in Part Two: if Muḥammad is the Seal, no Messenger can come after Him.",
+      "summary": "Placeholder. The Qur'an names Muḥammad Khātam al-Nabiyyīn. Therefore no Manifestation can come after Him. This is the central Islamic objection the book addresses.",
       "parents": ["claim-recognition"],
       "paragraphIds": []
     },
     {
-      "id": "interpretive-allegorical",
-      "kind": "interpretation",
-      "label": "Reading eschatological imagery symbolically",
-      "summary": "Placeholder node. Bahá'u'lláh argues, on the Qur'an's own terms, that images like clouds, sun darkening, and stars falling are symbolic rather than literal.",
-      "parents": ["claim-recognition"],
-      "paragraphIds": []
-    },
-    {
-      "id": "response-recognition",
+      "id": "response-seal-station",
       "kind": "response",
-      "label": "Response: the station of the Manifestations",
-      "summary": "Placeholder node. The answer to the Seal objection is that the Manifestations are one in essence; the Seal refers to a station, not a termination.",
+      "label": "Response: the station of the Manifestations is one",
+      "summary": "Placeholder. The Prophets share a single station; their outward differences are conditioned by time and audience. \"Seal\" is read as denoting a station of culmination within a cycle, not an absolute termination of revelation.",
       "parents": ["objection-seal"],
+      "paragraphIds": []
+    },
+    {
+      "id": "objection-qaim-signs",
+      "kind": "objection",
+      "label": "Objection: the signs of the Qá'im were not fulfilled",
+      "summary": "Placeholder. The Qá'im was expected in a specific line, with specific outward signs — the sword, the banner, global dominion. None of this appears literally.",
+      "parents": ["claim-recognition"],
+      "paragraphIds": []
+    },
+    {
+      "id": "response-qaim-signs",
+      "kind": "response",
+      "label": "Response: the signs of the Qá'im are also to be re-read",
+      "summary": "Placeholder. The same hermeneutic of clear and allegorical, already established from the Qur'an, applies to the ḥadīth concerning the Qá'im.",
+      "parents": ["objection-qaim-signs"],
+      "paragraphIds": []
+    },
+    {
+      "id": "closing-quran-standard",
+      "kind": "claim",
+      "label": "The Qur'an as the standard of judgment",
+      "summary": "Placeholder. The book closes by returning the reader to the Qur'an itself as the criterion. The reader is not asked to accept Bahá'u'lláh's conclusions on authority — they are asked to weigh them by the Qur'an.",
+      "parents": ["claim-recognition"],
       "paragraphIds": []
     }
   ]
